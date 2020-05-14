@@ -1,0 +1,85 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*  REGOLE GENERALI */
+
+.centratura {
+  padding: 0 5%;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mainfont {
+  font-size: 1em;
+  color: grey;
+}
+
+/* REGOLE HEADER */
+
+.fixed-navbar {
+  position: fixed;
+  background-color: rgb(209, 255, 241);
+  width: 100%;
+  padding: 30px 5%;
+  vertical-align: middle;
+  border-bottom: 1px solid gray;
+}
+/* COLONNA SINISTRA BARRA FISSA */
+.leftcontent {
+  margin: 10px 0;
+  display: inline-block;
+  width: 30%
+}
+
+.leftcontent .language {
+  border: none;
+}
+
+.leftcontent span {
+  padding-left: 10px;
+  border-left: 1px solid grey;
+}
+
+.leftcontent select {
+  background-color: inherit;
+}
+
+/* COLONNA DESTRA BARRA FISSA */
+
+.rightcontent {
+  margin: 10px 0;
+  display: inline-block;
+  width: 69%;
+  text-align: right;
+}
+
+.rightcontent input {
+  border: none;
+  background-color: inherit;
+}
+
+.rightcontent a {
+  text-decoration: none;
+}
+
+#loginbutton {
+  color: salmon;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid salmon;
+  padding: 10px 5px;
+}
+
+.smallorangebutton {
+  color: white;
+  background-color: salmon;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-left: 10px;
+}
