@@ -2,12 +2,14 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 /*  REGOLE GENERALI */
 
 .centratura {
-  padding: 0 5%;
+  padding: 0 10%;
 }
 .clearfix::after{
   content: "";
@@ -16,10 +18,17 @@
 }
 
 .mainfont {
-  font-size: 1em;
+  font-size: 1.2em;
   color: grey;
+  line-height: 2em;
 }
 
+.bigorangebutton {
+  color: white;
+  background-color: salmon;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
 /* REGOLE HEADER */
 
 .fixed-navbar {
@@ -82,4 +91,53 @@
   border-radius: 5px;
   padding: 10px 5px;
   margin-left: 10px;
+}
+
+/* REGOLE NAVBAR CON MENù A TENDINA E LOGO */
+
+.nav-dropdown {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+.ul-wrapper {
+  width: 91%;
+  text-align: right;
+}
+.ul-wrapper, .ul-wrapper li  {
+  display: inline-block;
+}
+
+.ul-wrapper a {
+  text-decoration: none;
+  color: gray;
+  margin-left: 20px;
+}
+/* REGOLE AREA CON JUMBOTRON */
+.nav-jumbotron {
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  height: 700px;
+}
+
+.jumbo-textbox {
+  width: 50%;
+}
+.jumbo-textbox a {
+  margin: 30px 0;
+  display: inline-block;
+}
+.jumbo-textbox :last-child {
+  font-size: 0.8em;
+}
+#maintitle {
+  font-size: 4em;
+  padding: 30px 0;
 }
