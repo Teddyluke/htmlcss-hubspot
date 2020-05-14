@@ -23,6 +23,9 @@
   line-height: 2em;
 }
 
+.titlefont {
+  color: rgb(62, 72, 87);
+}
 .bigorangebutton {
   color: white;
   background-color: salmon;
@@ -33,10 +36,9 @@
 
 .fixed-navbar {
   position: fixed;
-  background-color: rgb(209, 255, 241);
+  background-color: rgb(237, 255, 251);
   width: 100%;
   padding: 30px 5%;
-  vertical-align: middle;
   border-bottom: 1px solid gray;
 }
 /* COLONNA SINISTRA BARRA FISSA */
@@ -96,9 +98,8 @@
 /* REGOLE NAVBAR CON MENù A TENDINA E LOGO */
 
 .nav-dropdown {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 30px;
-  vertical-align: middle;
 }
 
 #logo img {
@@ -124,7 +125,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
-  height: 700px;
+  min-height: 700px;
 }
 
 .jumbo-textbox {
@@ -140,4 +141,87 @@
 #maintitle {
   font-size: 4em;
   padding: 30px 0;
+}
+
+ /* WARNING: INIZIO MAIN */
+.maincontainer {
+  background-color: rgb(237, 255, 251);
+}
+
+/* REGOLE MAINTOPSIDE */
+.main-topside {
+   text-align: center;
+ }
+
+.main-topside img {
+  width: 30%;
+  height: 30%;
+  padding-top: 30px;
+}
+
+.main-topside h2 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.main-topside p {
+  padding: 0 5% 20px 5%;
+}
+/* REGOLE MAIN CRM */
+.main-crm .riga {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:1px 1px 7px -1px rgba(0,0,0,0.75);
+
+}
+
+.colonna25 {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.colonna25 img {
+  width: 50%;
+  height:50%;
+  margin: 30px 0;
+}
+
+.colonna25 a {
+ text-decoration: none;
+}
+.colonna75 {
+  width: 75%;
+  float: left;
+  text-align: left;
+}
+
+.colonna75 h3 {
+  font-size: 2em;
+  margin: 30px 0;
+}
+
+.colonna75 h4 {
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 0;
+}
+.colonna75 p {
+  padding-right: 10%;
+}
+.colonna75 hr {
+  display: inline-block;
+  width: 50%;
+  margin-left: 60px;
+  border: 1px solid grey;
+  color: grey;
+}
+.colonna75 i {
+  color: salmon;
+  margin: 0 15px;
+}
+
+.colonna75 i:first-of-type {
+  margin-left: 0;
 }
