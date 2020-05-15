@@ -31,6 +31,7 @@
   background-color: salmon;
   border-radius: 5px;
   padding: 15px 25px;
+  text-decoration: none;
 }
 /* REGOLE HEADER */
 
@@ -38,7 +39,7 @@
   position: fixed;
   background-color: rgb(237, 255, 251);
   width: 100%;
-  padding: 30px 5%;
+  padding: 15px 5%;
   border-bottom: 1px solid gray;
 }
 /* COLONNA SINISTRA BARRA FISSA */
@@ -75,16 +76,13 @@
   background-color: inherit;
 }
 
-.rightcontent a {
-  text-decoration: none;
-}
-
 #loginbutton {
   color: salmon;
   background-color: white;
   border-radius: 5px;
   border: 1px solid salmon;
   padding: 10px 5px;
+  text-decoration: none;
 }
 
 .smallorangebutton {
@@ -93,6 +91,7 @@
   border-radius: 5px;
   padding: 10px 5px;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 /* REGOLE NAVBAR CON MENù A TENDINA E LOGO */
@@ -168,7 +167,8 @@
   padding: 0 5% 20px 5%;
 }
 /* REGOLE MAIN CRM */
-.main-crm .riga {
+.main-crm .rigacrm {
+  padding-bottom: 20px;
   background-color: white;
   border-radius: 5px;
   box-shadow:1px 1px 7px -1px rgba(0,0,0,0.75);
@@ -187,9 +187,6 @@
   margin: 30px 0;
 }
 
-.colonna25 a {
- text-decoration: none;
-}
 .colonna75 {
   width: 75%;
   float: left;
@@ -207,6 +204,7 @@
   vertical-align: middle;
   margin: 20px 0;
 }
+
 .colonna75 p {
   padding-right: 10%;
 }
@@ -224,4 +222,156 @@
 
 .colonna75 i:first-of-type {
   margin-left: 0;
+}
+ /*  REGOLE SEZIONE 3 HUBS  */
+
+.colonna30wrap {
+  width: 30%;
+  float:left;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:1px 1px 7px -1px rgba(0,0,0,0.75);
+  margin: 50px 0;
+  text-align: center;
+}
+
+.colonna30wrap img {
+  width: 120px;
+  height: 150px;
+  padding-top: 10px;
+ }
+
+.colonna30wrap h4:first-of-type {
+  font-size: 2em;
+  margin: 20px 0;
+ }
+
+.colonna30wrap h4:last-of-type {
+  font-size: 1.5em;
+  margin: 20px 0;
+
+}
+
+.colonna30wrap p {
+  margin: 0 5%;
+}
+
+.colonna30wrap p:first-of-type {
+  padding-bottom: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.colonna30wrap p:last-of-type {
+  text-align: left;
+  line-height: 1em;
+}
+
+.colonna30wrap i {
+  color: salmon;
+  margin-right: 15px;
+}
+
+.colonna30wrap a {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.saleshub {
+  margin: 50px 5%;
+}
+
+/* REGOLE SEZIONE 4 DATI GRAFICI */
+
+.communityrepwrapper {
+  text-align: center;
+  color: white;
+  background-color: #00A8B9;
+  padding: 0;
+  background-image: linear-gradient(to right,#00A8B9,#00bca5 );
+}
+
+.creptext h3 {
+  padding: 40px 0;
+  font-size: 2em;
+  color: white;
+}
+.creptext p {
+  color: white;
+}
+/* regole riga 1 */
+.riga1comrep {
+  margin-top: 40px;
+}
+.riga1comrep .colonna25 {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.agencywrapper img {
+  width: 44px;
+  height: 33px;
+}
+.blogwrapper img {
+  width: 69px;
+  height: 33px;
+}
+
+.academywrapper img {
+  width: 127px;
+  height: 33px;
+}
+
+.inboundwrapper img {
+  width: 107px;
+  height: 33px;
+}
+
+.testobiancogrande {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.riga1comrep p {
+  font-size: 0.8em;
+  padding-bottom: 30px;
+}
+
+.riga1comrep .colonna25:last-of-type {
+  border-right: none;
+}
+/*  regole riga 2 */
+
+.connectwrapper img {
+  width: 69px;
+  height: 33px;
+}
+
+.globewrapper img{
+  width: 33px;
+  height: 33px;
+}
+
+.followerswrapper img {
+  width: 34px;
+  height: 33px;
+}
+
+.growthwrapper img {
+  width: 104px;
+  height: 23px;
+}
+
+.riga2comrep .colonna25 {
+  border-right: 1px solid white;
+}
+
+.riga2comrep .colonna25:last-of-type {
+  border-right: none;
+}
+
+.riga2comrep p {
+  font-size: 0.8em;
+  padding-bottom: 30px;
 }
