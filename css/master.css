@@ -375,3 +375,83 @@
   font-size: 0.8em;
   padding-bottom: 30px;
 }
+
+/* REGOLE SEZIONE 5 generali */
+
+.main-partners {
+  background-color: white;
+}
+.colonna33  {
+  float: left;
+  width: 33%;
+}
+
+.colonna60 {
+  float: left;
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+/* regole colonna 33 */
+
+.colonna33 h3, .colonna33 p {
+  margin: 30px 40px 0 40px;
+}
+
+.colonna33 h3 {
+  font-size: 2em;
+}
+
+.colonna33 p {
+  font-size: 0.8em;
+}
+
+.colonna60 img {
+  max-height: 30px;
+  max-width: 115px;
+  margin: 10px 20px;
+}
+
+.colonnapartners {
+  width: 25%;
+  float: left;
+  text-align: center;
+
+}
+
+.colonna60 .atlassianmargin {
+  margin-bottom: 40px;
+}
+
+/*  REGOLE SEZIONE 6 MAIN */
+.main-calltoaction {
+  background-color: white;
+}
+.calltoaction-textbox {
+  width: 50%;
+  display: inline-block;
+}
+.calltoaction-textbox a {
+  margin: 30px 0;
+  display: inline-block;
+}
+.calltoaction-textbox :last-child {
+  font-size: 0.8em;
+}
+
+.subtitle {
+  font-size: 2.5em;
+  padding: 150px 0 30px 0;
+}
+
+.calltoaction-img-wrapper {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.calltoaction-img-wrapper img {
+  width: 70%;
+  margin-left: 30px;
+}
