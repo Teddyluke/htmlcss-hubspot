@@ -429,8 +429,9 @@
   background-color: white;
 }
 .calltoaction-textbox {
-  width: 50%;
+  width: 40%;
   display: inline-block;
+  margin-bottom: 100px;
 }
 .calltoaction-textbox a {
   margin: 30px 0;
@@ -448,10 +449,106 @@
 .calltoaction-img-wrapper {
   width: 49%;
   display: inline-block;
-  text-align: center;
+  text-align: right;
 }
 
 .calltoaction-img-wrapper img {
-  width: 70%;
-  margin-left: 30px;
+  width: 60%;
+  margin: 150px 0 20px 30px;
+}
+
+/*  REGOLE FOOTER */
+
+/* footer parte colonna */
+.footwrapper {
+  background-color: #33475b;
+}
+
+.footwrapper .colonna25 {
+  text-align: left;
+}
+
+.footwrapper h5 {
+  color: white;
+  padding-top: 50px;
+}
+
+.footwrapper ul {
+  list-style: none;
+}
+
+.footwrapper a {
+  text-decoration: none;
+  color: #bababa;
+  line-height: 2em;
+  padding-right: 25px;
+}
+
+.footwrapper .bigwhitebutton {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  line-height: 3em;
+  color: #33475b;
+}
+ /*  footer policy e copyright */
+
+.policywrapper {
+  text-align: center;
+  background-color: #33475b;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.policywrapper li {
+  display: inline-block;
+}
+
+.policywrapper a {
+  text-decoration: none;
+  color:#bababa;
+  padding-right: 25px;
+  line-height: 3em;
+}
+
+.copyright {
+  border-top: 1px solid #bababa;
+}
+
+.colonna50a, .colonna50b {
+  float: left;
+  width: 50%;
+}
+
+.colonna50a {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.colonna50a p {
+  color: white;
+  font-size: 0.8em;
+}
+
+.colonna50b {
+  text-align: right;
+  padding-top: 20px;
+}
+
+/*  hoovering */
+
+.footwrapper a:hover {
+  color: #7fd1de;
+}
+
+.policywrapper a:hover {
+  color: #7fd1de;
+}
+
+.bigorangebutton:hover {
+  background-color: rgba(255,064,064, 0.3);
+}
+
+.smallorangebutton:hover {
+  background-color: rgba(255,064,064, 0.3);
 }
